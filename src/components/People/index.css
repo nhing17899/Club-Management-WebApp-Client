@@ -1,0 +1,67 @@
+.caret {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-left: 2px;
+  vertical-align: middle;
+  border-top: 4px dashed;
+  border-top: 4px solid \9;
+  border-right: 4px solid transparent;
+  border-left: 4px solid transparent;
+}
+
+.dropup .caret,
+.navbar-fixed-bottom .dropdown .caret {
+  border-top: 0;
+  border-bottom: 4px dashed;
+  border-bottom: 4px solid \9;
+  content: '';
+}
+.containerStyle {
+    background-color: white;
+    margin: 10px 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    max-width: 97%;
+    margin-top: 40px;
+  }
+  
+  .searchBar {
+    width: 76vw;
+    border: none;
+    box-shadow: none;
+  }
+  
+  .addNewBtn {
+    border: 1px solid rgba(128, 128, 128, 0.335);
+    padding: 2px 5px !important;
+    background-color: white !important;
+    box-shadow: 5px 2px 2px 1px rgba(128, 128, 128, 0.13);
+    right: 20px;
+    float: right;
+    color: red !important;
+  }
+  
+  .deleteBtn {
+    color:red !important;
+    border: 1px solid gray;
+    padding: 2px 5px !important;
+    background-color: white !important;
+    top: 75px;
+    /* margin-bottom: 30px; */
+    float: left
+  }
+  
+  .modalDeleteBtn {
+    float: left !important;
+    right: 300px;
+    color: red !important;
+  }
+
+  .saveBtn {
+    color:red !important;
+    border: 1px solid gray;
+    background-color: white !important;
+    top: 75px;
+  }
